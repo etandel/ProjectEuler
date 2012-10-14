@@ -9,7 +9,6 @@ I try to make solutions in [Lua](http://www.lua.org), [MoonScript](http://moonsc
 -----
 
 * 15 -> C
-* 16 -> Python
 
 3. Author and License
 -----
