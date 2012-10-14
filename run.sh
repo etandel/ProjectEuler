@@ -6,7 +6,7 @@ case $extension in
     c)
         in_name=$1
         out_name=$fname.bin
-        gcc -ggdb -O0 -Wall -lm -o $out_name $in_name && ./$out_name
+        gcc -ggdb -O0 -Wall -lm -fopenmp -o $out_name $in_name && ./$out_name
         ;;
 
     moon)
