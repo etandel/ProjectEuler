@@ -10,6 +10,7 @@ I try to make solutions in [Lua](http://www.lua.org), [MoonScript](http://moonsc
 
 * 15 -> C
 * 19 -> C
+* 23 -> C
 
 3. Author and License
 -----
