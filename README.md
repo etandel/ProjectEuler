@@ -15,6 +15,9 @@ I try to make solutions in [Lua](http://www.lua.org), [MoonScript](http://moonsc
 * 27 -> C
 * 28 -> Python
 
+* 29 -> Lua:
+    - Fix algorithm to better deal with floating point.
+
 3. Author and License
 -----
 
