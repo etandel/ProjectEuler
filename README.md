@@ -7,15 +7,15 @@ I try to make solutions in [Lua](http://www.lua.org), [MoonScript](http://moonsc
 
 2. TODO
 -----
+- Implement:
+    * 15 -> C
+    * 23 -> C
+    * 26 -> MoonScript
+    * 27 -> C
+    * 28 -> Python
 
-* 15 -> C
-* 23 -> C
-* 26 -> MoonScript
-* 27 -> C
-* 28 -> Python
-
-* 29 -> Lua:
-    - Fix algorithm to better deal with floating point.
+- Fix:
+    * 29 -> Lua: Fix algorithm to better deal with floating point.
 
 3. Author and License
 -----
