@@ -10,7 +10,6 @@ I try to make solutions in [Lua](http://www.lua.org), [MoonScript](http://moonsc
 
 * 15 -> C
 * 23 -> C
-* 25 -> Lua
 * 26 -> MoonScript
 * 27 -> C
 * 28 -> Python
