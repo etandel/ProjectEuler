@@ -7,12 +7,6 @@ I try to make solutions in [Lua](http://www.lua.org), [MoonScript](http://moonsc
 
 2. TODO
 -----
-- Implement:
-    * 15 -> C
-    * 26 -> MoonScript
-    * 28 -> Python
-
-- Fix:
     * 29 -> Lua: Fix algorithm to better deal with floating point.
 
 3. Author and License
