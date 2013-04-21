@@ -14,7 +14,7 @@ What is the largest prime factor of the number 600851475143 ?
 
 typedef long long int num_t;
 
-void erastothenes(char *primes, num_t n){
+void eratosthenes(char *primes, num_t n){
     num_t i, j;
     memset(primes, 1, n);
     for (i=2; i<n; i++){
@@ -42,7 +42,7 @@ int main(const int argc, const char *argv[]){
     num_t sieve_limit = ceil(sqrt(LIMIT));
     char *primes = malloc(sieve_limit+1);
 
-    erastothenes(primes, sieve_limit);
+    eratosthenes(primes, sieve_limit);
     //printall(primes, sieve_limit);
     printf("%lld\n", largest_prime_factor(LIMIT, primes, sieve_limit));
     

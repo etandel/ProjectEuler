@@ -15,7 +15,7 @@ What is the 10 001st prime number?
 
 typedef long long int num_t;
 
-void erastothenes(char *primes, num_t n){
+void eratosthenes(char *primes, num_t n){
     num_t i, j;
     memset(primes, 1, n);
     for (i=2; i<n; i++){
@@ -42,7 +42,7 @@ int main(const int argc, const char *argv[]){
     num_t sieve_limit = LIMIT;
     char *primes = malloc(sieve_limit+1);
 
-    erastothenes(primes, sieve_limit);
+    eratosthenes(primes, sieve_limit);
     printf("%lld\n", get_nth_prime(NTH, primes, sieve_limit));
     
     free(primes);

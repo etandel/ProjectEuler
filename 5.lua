@@ -13,7 +13,7 @@ local function range_set(begin, end_)
     return s, begin - end_ + 1
 end
 
-local function erastothenes(n)
+local function eratosthenes(n)
     local primes = range_set(2, n)
     for i = 2, n do
         for j = i*i, n, i do
@@ -24,7 +24,7 @@ local function erastothenes(n)
 end
 
 function prime_factors(n)
-    candidates = erastothenes(n)
+    candidates = eratosthenes(n)
     factors = {}
     for prime in pairs(candidates) do
         while n % prime == 0 do

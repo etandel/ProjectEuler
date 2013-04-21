@@ -2,7 +2,7 @@
 --
 --Find the sum of all the primes below two million.
 
-erastothenes = (n) ->
+eratosthenes = (n) ->
     primes = {}
     for i = 2, n
         primes[i] = true
@@ -14,6 +14,6 @@ erastothenes = (n) ->
 
 limit = arg[1] or 2e6
 s = 0
-for prime in pairs erastothenes limit
+for prime in pairs eratosthenes limit
     s += prime
 print s
