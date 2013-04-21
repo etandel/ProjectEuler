@@ -31,7 +31,7 @@ Find the product of the coefficients, a and b, for the quadratic expression that
 typedef long long int num_t;
 
 
-char * erastosthenes(num_t n){
+char * eratosthenes(num_t n){
     num_t i, j;
     char *primes = malloc(n + 1);
 
@@ -63,7 +63,7 @@ num_t count_consecutive(char * primes, num_t a, num_t b){
 int main(const int argc, const char *argv[]){
     num_t a, b, nconsec,
         max_a=-COEF_LIMIT, max_b=-COEF_LIMIT, max_consec=0;
-    char *primes = erastosthenes(PRIME_LIMIT);
+    char *primes = eratosthenes(PRIME_LIMIT);
 
     for (a=-COEF_LIMIT; a<COEF_LIMIT; a++)
         for (b=-COEF_LIMIT; b<COEF_LIMIT; b++){
